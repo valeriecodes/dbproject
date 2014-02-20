@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Valerie's TBP</title>
+	<meta name="robots" content="noindex" />
+</head>
+<body>
+<h1>Twitter Basic Plus</h1>
+
+<!--Function 1-->
+<a href="last_tweet.php">Most recent tweet(s)</a><br>
+
+<!--Function 2-->
+<a href="trending_hashtags.php">Top 3 most-used hashtags</a><br>
+
+<!--Function 3-->
+<a href="private_messages.php">Private message count</a><br>
+
+<!--Function 4-->
+<a href="list_celebrities.php">Celebrities on TBP</a><br>
+
+<!--Function 5-->
+<a href="top_tweeters.php">Top tweeters</a><br><br>
+
+<!--Function 6-->
+<form method=get action="tweet_search.php">
+	<b>Enter word or string to search for: (e.g. Amazon, cats)</b><br>
+	<input type="text" name="term"><br>
+	<input type="submit" value="Search tweets">
+</form>
+<br>
+<!--Function 7-->
+<form method=get action="tweets_by_user.php">
+	<b>Enter a username to get tweets for that user:</b><br>
+	<input type="text" name="user"><br>
+	<input type="submit" value="Get tweets">
+</form>
+<br>
+<!--Function 8-->
+<form method=get action="lookup_user.php">
+	<b>Enter username to get profile details:</b><br>
+	<input type="text" name="user"><br>
+	<input type="submit" value="Lookup user">
+</form>
+<br>
+<!--Function 9-->
+<form method=get action="lookup_followers.php">
+	<b>Enter username to get a list of their followers:</b><br>
+	<input type="text" name="user"><br>
+	<input type="submit" value="Lookup followers">
+</form>
+
+</body>
+</html>
